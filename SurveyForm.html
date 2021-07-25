@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div>
+    <h1 id="title">New World Beta Survey Form</h1>
+    <img src="https://pbs.twimg.com/profile_images/1392124727976546307/vBwCWL8W.jpg" id="new-world-img">
+    <p id="description">Thank you for filling out the survey</p>
+    </div>
+    <form id="survey-form">
+        <div>
+            <label id="name-label">Name</label><br>
+            <input id="name" placeholder="Enter name here" required><br>
+            <label id="email-label">Email</label><br>
+            <input id="email" type="email" placeholder="Enter E-mail" required><br>
+            <label id="number-label">Number</label><br>
+            <input id="number" type="number" min="0" max="100" placeholder="Enter Age" required><br>
+        </div>
+        <div>
+            <p>Which one currently describes your play time?</p>
+            <select id="dropdown">
+                <option value="hardcore">Hardcore</option>
+                <option value="casual">Casual</option>
+                <option value="rarely-get-to-play">Rarely get to play</option>
+            </select>
+        </div>
+        <div id="radio-buttons">
+            <p>How happy are you with the game?</p>
+            <label>
+                <input class="input-radio" type="radio" name="user-recommend" value="extremely-happy">Extremely Happy<br>
+                <input class="input-radio" type="radio" name="user-recommend" value="fun">The game is fun so far<br>
+                <input class="input-radio" type="radio" name="user-recommend" value="disappointed">Disappointed<br>
+            </label>
+        </div>
+        <div>
+            <p>Which area of the game do you think needs most improvement</p>
+            <input type="checkbox" name="improvement" value="pvp" class="input-checkbox">PvP
+            <input type="checkbox" name="improvement" value="pve" class="input-checkbox">PvE
+            <input type="checkbox" name="improvement" value="crafting" class="input-checkbox">Crafting
+            <input type="checkbox" name="improvement" value="weapon-scaling" class="input-checkbox">Weapon Scaling
+            <input type="checkbox" name="improvement" value="group-play" class="input-checkbox">Group Play
+        </div>
+        <div>
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="comment"
+                placeholder="enter comments and suggestions here..."></textarea>
+        </div>
+        <div>
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+    <script src="" async defer></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

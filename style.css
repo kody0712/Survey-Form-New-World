@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+body {
+  background-color: black;
+}
+p {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+form {
+  color: white;
+  font-size: medium;
+  font-family: "Otomanopee One";
+  line-break: normal;
+  text-align: center;
+}
+#title {
+  font-size: 200%;
+  margin: 50px;
+  color: white;
+  font-family: "Otomanopee One", sans-serif;
+  text-align: center;
+}
+#new-world-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#comments {
+    width: 500px;
+}
